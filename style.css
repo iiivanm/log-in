@@ -1,0 +1,37 @@
+body {
+    background: url(bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+	width:600px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.26);
+    margin:  auto;
+    
+    box-shadow: 1px 1px 60px 1px rgba(7, 4, 4, 0.55);
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+   
+
+}
+
+.top-bar {
+    height: 40px;
+    background: rgb(24, 195, 227);
+    border-radius: 5px 5px 0 0;
+
+}
+
+.bottom-bar {
+  height: 60px;
+    background: rgb(2, 182, 216);
+    border-radius: 0 0 5px 5px
+   
+}
+.middle-section {
+	height: 100%;
+}
